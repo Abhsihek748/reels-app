@@ -1,0 +1,211 @@
+.profile{
+    display : flex;
+    flex-direction : column;
+    height: 100vh ;
+    width :100vw ;
+}
+
+.profileData{
+    display : flex;
+    flex-direction : row;
+    justify-content: center;
+    align-items: center;
+    height : 15rem;
+    padding: 1rem;
+    
+    
+}
+.profile-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 300px; 
+}
+
+.profileImage {
+    display : flex;
+    flex-direction : column;
+    height: 10vh ;
+    width :10vw ;
+    
+}
+
+.userDetails{
+    display :flex;
+    padding-left: 2rem;
+   font-size: larger;
+    font-weight: 700;
+    
+}
+.video-heading{
+    padding-left: 2rem;
+    font-size: large;
+     font-weight: 700;
+}
+.userVideo{
+    display: flex;
+    height:100%;
+    width : 95%;
+    margin: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid grey;
+
+}
+.avatar{
+    border-radius:5px;
+    height: 40px;
+    width: 40%; 
+}
+
+.video-styles2
+{
+    height: 80vh;
+    width: 35vw;
+    
+}
+.Pvideos{
+    position: relative;
+    padding: 5px;
+    width:15rem;
+    height: 23rem;
+
+}
+
+.Pvideo-styles{
+width: 15rem;
+height: 23rem;
+scroll-snap-align: start;
+scroll-behavior: smooth;
+}
+
+.place
+{
+    height: 2vh;
+}
+.MuiCardContent-root
+{
+    padding: 0px !important;
+}
+.MuiCardContent-root:last-child
+{
+    padding: 0px !important;
+}
+.likes
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-bottom: 1%;
+}
+.dcontainer
+{
+    display: flex;
+}
+.MuiDialogContent-root:first-child
+{
+    padding-top: 0px !important;
+}
+.MuiDialogContent-root{
+    padding: 0px !important;
+}
+.video-part
+{
+    display: flex;
+    justify-content: center;
+    width: 35vw;
+}
+.info-part
+{
+    flex-grow: 1;
+    flex-basis: 0;
+    width: 42vw;
+}
+.htitle
+{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.Pvideo-container {
+    
+    height: 100%;
+    width:100%;
+    background-color: white;
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* for chrome and opera */
+  .Pvideo-container::-webkit-scrollbar {
+    display: none;
+  }
+.fa
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 18%;
+    margin-left: 25%;
+}
+.fa h4{
+    margin: 0px;
+    margin-top: 1%;
+    margin-left: 2%;
+    color: white;
+}
+
+.icon-styling
+{
+    position: absolute;
+   
+   margin-bottom: 5%;
+   margin-left: 26%;
+}
+.video-ticker
+{
+    position: absolute;
+    bottom: 0;
+    width: 52%;
+    margin-bottom: 11.7%;
+    margin-left: 25%;
+}
+
+
+@media only screen and (max-width: 720px) {
+    .video-part{
+        display: none;
+
+    }
+    .info-part{
+        width: 80%;
+    }
+  }
+  @media only screen and (max-width: 490px) {
+      .fa{
+          margin-left: 15%;
+      }
+      .video-ticker{
+          margin-left: 16%;
+      }
+      .icon-styling{
+          margin-left: 16%;
+      }
+  }
+  @media only screen and (max-width: 500px) {
+    .right{
+        display: none;
+
+    }
+    .center{
+        width: 100%;
+    }
+    .video-style{
+        /* height: 70vh; */
+    }
+    .insta-head2 img {
+        width: 100%;
+        height: 3.8vh;
+    }
+  }
